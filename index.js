@@ -6,3 +6,10 @@ function writeCards(names, event) {
   }
   return solution
 }
+
+function countdown(number) {
+  let count = number
+  while count >= 0 {
+    console.log(count--)
+  }
+}
