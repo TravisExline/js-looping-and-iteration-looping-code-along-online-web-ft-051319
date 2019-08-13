@@ -1,6 +1,7 @@
 // Code your solutions in this file
-function writeCards(array, event) {
-  for (i = 0, i < array.length, i++) {
-    console.log(`Thank you, #{array[i]}, for the wonderful #{event} gift`)
+function writeCards(names, event) {
+  for (i = 0, i < names.length, i++) {
+    console.log(`Thank you, #{names[i]}, for the wonderful #{event} gift`)
   }
+  return names
 }
